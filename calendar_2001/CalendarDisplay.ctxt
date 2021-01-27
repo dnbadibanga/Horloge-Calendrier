@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CalendarDisplay
+comment0.text=\r\n\ The\ CalendarDisplay\ class\ implements\ digital\ weekly\ calendar.\ The\ calendar\r\n\ cycles\ through\ the\ days\ of\ the\ week,\ first\ day\ of\ the\ week\ being\ \r\n\ Monday\ (yes,\ Sunday\ is\ the\ weekend)\ and\ last\ day\ of\ the\ week\ is\ Sunday.\r\n\ The\ days\ are\ accessed\ with\ indices\ from\ a\ list.\ Once\ Sunday\ is\ reached,\r\n\ the\ calendar\ starts\ back\ again\ at\ Monday.\r\n\r\n\ @author\ Divine\ Badibanga(201765203)\ and\ Kelachi\ Charles-Beke\r\n\ @version\ 2019.09.24\r\n
+comment1.params=day
+comment1.target=CalendarDisplay(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CalendarDisplay\r\n
+comment2.params=
+comment2.target=int\ getCurrentDay()
+comment2.text=\r\n\ Returns\ the\ index\ of\ the\ day\ of\ the\ week\r\n
+comment3.params=
+comment3.target=void\ nextDay()
+comment3.text=\r\n\ Goes\ to\ the\ next\ day\ (increments\ value\ of\ day\ by\ one)\r\n
+comment4.params=
+comment4.target=void\ prevDay()
+comment4.text=\r\n\ Goes\ to\ the\ previous\ day\ (decrements\ value\ of\ day\ by\ one)\r\n
+comment5.params=
+comment5.target=java.lang.String\ getDay()
+comment5.text=\r\n\ Returns\ the\ current\ day\ of\ the\ week\r\n
+numComments=6
